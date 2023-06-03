@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.prep {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;   
+  font-family: 'Patrick Hand', 'M PLUS Rounded 1c';
+  font-size: 58px;
+  font-weight: bold;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Patrick Hand', 'M PLUS Rounded 1c';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  
+  .prep {
+    width: 100%;
+    text-align: center;
+  }
+
+  img {
+    width: 250px;
+    margin-top: 100px;
+    /* height: calc(100vh - 650px);
+    align-items: center;
+    justify-content: center; */
+  }
+
+  h1 {
+    width: 100%;
+    font-family: 'Patrick Hand', 'M PLUS Rounded 1c';
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  h2 {
+    width: 100%;
+    font-family: 'Patrick Hand', 'M PLUS Rounded 1c';
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+}
