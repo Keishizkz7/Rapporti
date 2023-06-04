@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+
+body { 
+  color: #231615;
+  background-color: #fefefe;
+
+}
+
 .prep {
   width: 100%;
   text-align: center;
@@ -28,6 +35,12 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  
+body { 
+  color: #231615;
+  background-color: #fefefe;
+
+}
   
   .prep {
     width: 100%;
